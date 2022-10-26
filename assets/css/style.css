@@ -51,9 +51,10 @@ header {
 
 button {
     padding: 9px 25px;
+    color: #ffffff;
     background-color: rgba(0, 136, 169, 1);
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -62,15 +63,15 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.about__us {    
+.about__container {    
     padding: 30px 10%;
 }
 
-.about__container {
+.about__us {
     background: rgba(25,24,28, 0.3);
     background: linear-gradient(90deg, rgba(25,24,28,1) 0%, rgba(51,55,63,1) 35%, rgba(74,89,101,0.8886905103838411) 100%);
-    color: #ccd0d0;
+    color: #dedbdb;
     padding: 45px;
-    border-radius: 16px;
+    border-radius: 30px;
 }
 
