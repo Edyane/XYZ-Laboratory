@@ -49,18 +49,58 @@ header {
     color: #0088a9;
 }
 
-button {
-    padding: 9px 25px;
-    color: #ffffff;
-    background-color: rgba(0, 136, 169, 1);
+.welcome__container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;  
+    height: 500px;    
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 95px;
+}
+
+.welcome__text {
+    max-width: 350px;
+}
+
+span {
+    color: #7DA7A8 ;
+}
+
+.cadastro__btn {
+    background-color: #19181C;
+    margin-right: 18px;
+    color: #fff;
+    width: 130px;  
+    height: 40px;  
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+.cadastro__btn:hover {
+    background-color: #4A5965;
+}
+
+.login__btn {
+    background-color: transparent;
+    width: 130px;  
+    height: 40px;  
+    border: 2px solid #7DA7A8;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login__btn:hover {
+    border: 2px solid #A2D0C2;
 }
 
 .about__container {    
