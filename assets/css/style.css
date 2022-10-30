@@ -51,24 +51,23 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #0088a9;
+    color: #4A7C59;
 }
 
-.welcome__container {    
+.welcome__container {        
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    height: 500px;
+    height: 550px;
 }
 
 h1 {
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
 
 .subtitle__text {
-    padding: 35px 0px 35px 0px;
+    padding: 30px 0px 35px 0px;
 }
 
 .welcome__text {
@@ -124,13 +123,16 @@ span {
     border-radius: 30px;
 }
 
-.equipamentos__container {
-    padding: 30px 10%;
-    height: 580px;
+.equipamentos__container {     
+    padding: 30px 10%;    
 }
 
 .subtitles {
-    color: #19181C;
+    color: #19181C; 
+    text-decoration: underline;    
+    text-decoration-color: #4A7C59;  
+    text-decoration-thickness: 5px;  
+    text-underline-offset: 13px;   
     font-size: 28px;
     font-weight: bold;
     padding: 10px;
@@ -138,15 +140,18 @@ span {
 
 .cards__container {
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .cards {
-    background: rgba(205, 205, 205, 0.3);
+    background: rgba(224, 224, 224, 0.3);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 4px;
+    border-radius: 12px;
     padding: 25px;
     margin: 10px;   
     width: 380px;
@@ -154,7 +159,8 @@ span {
 }
 
 h4 {
-    padding-top: 10px;
+    color: #19181C;
+    padding-top: 10px;       
 }
 
 img {
@@ -164,41 +170,31 @@ img {
     border-radius: 6px 6px 0 0;
 }
 
-.rules__container {    
-    padding: 30px 10%;
-    height: 580px;
+.rules__container { 
+    background-image: url(../images/close-up-microscope-oculars.jpg);  
+    background-size: cover; 
+    padding: 30px 10%; 
 }
 
-.rules__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-}
-
-.rules__text {
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
-    padding: 40px; 
-    width: 480px;
-    height: 480px;
-    margin: 10px;
-}
-
-.subtitle__rules {
-    font-size: 22px;
+.states {
+    padding-left: 25px;;
     text-align: center;
-    padding-bottom: 10px;
-    font-weight: bold;      
-    /* fundo gradiente */
-    background-image: linear-gradient(0deg, #617F89 0%, #7DA7A8 100%);
-    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
-    background-clip: text;
-    -webkit-background-clip: text;
-    /* a cor do texto deve estar como transparent */
-    color: transparent;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.rules__content {
-    text-align: justify;
-    font-size: 14px;
+.blocks {
+    align-items: center;
+    margin: 10px;
+    max-width: 380px;
 }
+
+.states__text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
