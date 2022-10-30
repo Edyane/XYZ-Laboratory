@@ -17,6 +17,7 @@ button {
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
 }
 
 header {
@@ -28,6 +29,8 @@ header {
 
 .logo {
     cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .nav-links {
@@ -51,8 +54,7 @@ header {
     color: #0088a9;
 }
 
-.welcome__container {
-    background-color: white;
+.welcome__container {    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,16 +63,20 @@ header {
 }
 
 h1 {
-    font-size: 40px;
-    padding-bottom: 95px;
+    font-size: 50px;
+    
+}
+
+.subtitle__text {
+    padding: 35px 0px 35px 0px;
 }
 
 .welcome__text {
-    max-width: 350px;
+    max-width: 450px;
 }
 
 span {
-    color: #7DA7A8;
+    color: #4A7C59;
 }
 
 .cadastro__btn {
@@ -94,7 +100,7 @@ span {
     background-color: transparent;
     width: 130px;
     height: 40px;
-    border: 2px solid #7DA7A8;
+    border: 3px solid #4A7C59;    
     border-radius: 4px;
     font-weight: 700;
     cursor: pointer;
@@ -102,7 +108,7 @@ span {
 }
 
 .login__btn:hover {
-    border: 2px solid #A2D0C2;
+    border: 2px solid #4A7C59;
 }
 
 .about__container {
@@ -119,8 +125,15 @@ span {
 }
 
 .equipamentos__container {
-    background-color: #e1dddd;
     padding: 30px 10%;
+    height: 580px;
+}
+
+.subtitles {
+    color: #19181C;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .cards__container {
@@ -131,13 +144,17 @@ span {
 }
 
 .cards {
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(205, 205, 205, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 4px;
     padding: 25px;
     margin: 10px;   
     width: 380px;
     height: 380px;
+}
+
+h4 {
+    padding-top: 10px;
 }
 
 img {
@@ -147,9 +164,9 @@ img {
     border-radius: 6px 6px 0 0;
 }
 
-.rules__container {
-    background-color: lightgoldenrodyellow;
+.rules__container {    
     padding: 30px 10%;
+    height: 580px;
 }
 
 .rules__box {
@@ -159,13 +176,29 @@ img {
 }
 
 .rules__text {
-    background-color: lightseagreen;   
-    padding: 50px; 
-    width: 50%;
-    height: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
+    padding: 40px; 
+    width: 480px;
+    height: 480px;
     margin: 10px;
+}
+
+.subtitle__rules {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;      
+    /* fundo gradiente */
+    background-image: linear-gradient(0deg, #617F89 0%, #7DA7A8 100%);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
 }
 
 .rules__content {
     text-align: justify;
+    font-size: 14px;
 }
