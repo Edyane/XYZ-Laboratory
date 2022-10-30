@@ -59,7 +59,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    height: 550px;
+    height: 400px;
 }
 
 h1 {
@@ -110,9 +110,9 @@ span {
     border: 2px solid #4A7C59;
 }
 
-.about__container {
+.about__container {    
     padding: 30px 10%;
-    min-height: 340px;
+    min-height: 300px;
 }
 
 .about__us {
@@ -128,7 +128,7 @@ span {
 }
 
 .subtitles {
-    color: #19181C; 
+    color: #19181C;     
     text-decoration: underline;    
     text-decoration-color: #4A7C59;  
     text-decoration-thickness: 5px;  
@@ -170,14 +170,14 @@ img {
     border-radius: 6px 6px 0 0;
 }
 
-.rules__container { 
+.states__container { 
     background-image: url(../images/close-up-microscope-oculars.jpg);  
     background-size: cover; 
     padding: 30px 10%; 
 }
 
 .states {
-    padding-left: 25px;;
+    padding-left: 25px;
     text-align: center;
     display: flex;    
     flex-direction: row;
@@ -193,8 +193,29 @@ img {
 }
 
 .states__text {
-    color: white;
+    color:  #fffffff3;
     font-size: 20px;
     font-weight: bold;
 }
 
+.rules__container {    
+    padding: 30px 10%; 
+}
+
+.rules__box {
+    padding-top: 30px;    
+    text-align: justify;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rules__text {
+    background-color: #fafafa;
+    box-shadow: #6062672c -5px 5px, #dbdbdb -10px 10px;
+    padding: 25px;
+    margin: 10px;
+    width: 580px;
+}
