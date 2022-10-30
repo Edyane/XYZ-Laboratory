@@ -3,10 +3,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
-li, a, button {
+li,
+a,
+button {
     font-weight: 500;
     font-size: 16px;
     color: #24252A;
@@ -54,8 +56,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;  
-    height: 500px;    
+    padding: 30px 10%;
+    height: 500px;
 }
 
 h1 {
@@ -68,15 +70,15 @@ h1 {
 }
 
 span {
-    color: #7DA7A8 ;
+    color: #7DA7A8;
 }
 
 .cadastro__btn {
     background-color: #19181C;
     margin-right: 18px;
     color: #fff;
-    width: 130px;  
-    height: 40px;  
+    width: 130px;
+    height: 40px;
     border: none;
     border-radius: 4px;
     font-weight: 700;
@@ -90,8 +92,8 @@ span {
 
 .login__btn {
     background-color: transparent;
-    width: 130px;  
-    height: 40px;  
+    width: 130px;
+    height: 40px;
     border: 2px solid #7DA7A8;
     border-radius: 4px;
     font-weight: 700;
@@ -103,15 +105,67 @@ span {
     border: 2px solid #A2D0C2;
 }
 
-.about__container {    
+.about__container {
     padding: 30px 10%;
+    min-height: 340px;
 }
 
 .about__us {
-    background: rgba(25,24,28, 0.3);
-    background: linear-gradient(90deg, rgba(25,24,28,1) 0%, rgba(51,55,63,1) 35%, rgba(74,89,101,0.8886905103838411) 100%);
+    background: rgba(25, 24, 28, 0.3);
+    background: linear-gradient(90deg, rgba(25, 24, 28, 1) 0%, rgba(51, 55, 63, 1) 35%, rgba(74, 89, 101, 0.8886905103838411) 100%);
     color: #dedbdb;
     padding: 45px;
     border-radius: 30px;
 }
 
+.equipamentos__container {
+    background-color: #e1dddd;
+    padding: 30px 10%;
+}
+
+.cards__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 25px;
+    margin: 10px;   
+    width: 380px;
+    height: 380px;
+}
+
+img {
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.rules__container {
+    background-color: lightgoldenrodyellow;
+    padding: 30px 10%;
+}
+
+.rules__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.rules__text {
+    background-color: lightseagreen;   
+    padding: 50px; 
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+.rules__content {
+    text-align: justify;
+}
