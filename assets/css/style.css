@@ -198,7 +198,7 @@ img {
     font-weight: bold;
 }
 
-.rules__container {    
+.rules__container {       
     padding: 30px 10%; 
 }
 
@@ -212,10 +212,18 @@ img {
     flex-wrap: wrap;
 }
 
-.rules__text {
-    background-color: #fafafa;
-    box-shadow: #6062672c -5px 5px, #dbdbdb -10px 10px;
+.rules__text {     
+    border-radius: 12px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     padding: 25px;
     margin: 10px;
     width: 580px;
 }
+
+.labs__container {
+    padding: 30px 10%; 
+}
+
+h5 {
+    font-size: 20px; 
+}   
