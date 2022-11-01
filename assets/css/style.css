@@ -28,6 +28,7 @@ header {
 }
 
 .logo {
+    color: #19181C;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
@@ -54,24 +55,29 @@ header {
     color: #4A7C59;
 }
 
-.welcome__container {        
+.welcome__container {  
+    background-image: url('../images/side-of-lab-microscope.png');   
+    background-size: cover;  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    height: 400px;
+    height: 490px;
 }
 
 h1 {
-    font-size: 50px;    
+    color: #fafafa;
+    font-size: 50px;
+    font-weight: bold;    
 }
 
 .subtitle__text {
+    color: #ffffff;    
     padding: 30px 0px 35px 0px;
 }
 
 .welcome__text {
-    max-width: 450px;
+    max-width: 450px;    
 }
 
 span {
@@ -81,7 +87,7 @@ span {
 .cadastro__btn {
     background-color: #19181C;
     margin-right: 18px;
-    color: #fff;
+    color: #fafafa;
     width: 130px;
     height: 40px;
     border: none;
@@ -92,11 +98,12 @@ span {
 }
 
 .cadastro__btn:hover {
-    background-color: #4A5965;
+    background-color: #3a3d40;
 }
 
 .login__btn {
-    background-color: transparent;
+    background-color: #4A7C59;
+    color: #fafafa;
     width: 130px;
     height: 40px;
     border: 3px solid #4A7C59;    
@@ -111,7 +118,7 @@ span {
 }
 
 .about__container {    
-    padding: 30px 10%;
+    padding: 60px 10% 30px 10%;
     min-height: 300px;
 }
 
@@ -124,24 +131,24 @@ span {
 }
 
 .equipamentos__container {     
-    padding: 30px 10%;    
+    padding: 30px 10%;       
 }
 
 .subtitles {
-    color: #19181C;     
+    color: #19181C;
     text-decoration: underline;    
     text-decoration-color: #4A7C59;  
     text-decoration-thickness: 5px;  
-    text-underline-offset: 13px;   
+    text-underline-offset: 13px;         
     font-size: 28px;
     font-weight: bold;
-    padding: 10px;
+    padding-top: 40px;
 }
 
 .cards__container {
     display: flex;
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -174,9 +181,11 @@ img {
     background-image: url(../images/close-up-microscope-oculars.jpg);  
     background-size: cover; 
     padding: 30px 10%; 
+    height: 230px;
 }
 
 .states {
+    padding-top: 50px;
     padding-left: 25px;
     text-align: center;
     display: flex;    
@@ -198,12 +207,12 @@ img {
     font-weight: bold;
 }
 
-.rules__container {       
+.rules__container {        
     padding: 30px 10%; 
 }
 
-.rules__box {
-    padding-top: 30px;    
+.rules__box {    
+    padding-top: 30px;      
     text-align: justify;
     display: flex;    
     flex-direction: row;
@@ -212,18 +221,85 @@ img {
     flex-wrap: wrap;
 }
 
-.rules__text {     
+.rules__text {  
+    background-color: #eeeeeede;   
     border-radius: 12px;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     padding: 25px;
     margin: 10px;
-    width: 580px;
+    width: 380px;
+    height: 310px;    
 }
 
-.labs__container {
-    padding: 30px 10%; 
+.icon {
+    width: 60px;
+    height: 60px;
 }
 
 h5 {
     font-size: 20px; 
 }   
+
+.labs__container {  
+    background-image: linear-gradient(to bottom,  #fafafa 60%,  #4A7C59 40%);  
+    padding: 30px 10%;    
+}
+
+.labs__box {  
+    padding: 35px 25px 60px 0px;    
+    text-align: center;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.labs__text {
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    align-items: center;    
+    width: 230px;
+    height: 240px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+.labs__description {
+    padding: 25px;
+    color: #fafafa;
+}
+
+.equipe__container {
+    padding: 30px 10%;
+}
+
+.equipe__box {
+    padding: 35px 25px 60px 0px;    
+    text-align: center;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.equipe__names {
+    padding-top: 35px 0px 8px;
+    font-weight: bold;
+}
+
+.footer__container {    
+    background-color: #121113;
+    padding: 30px 10%;
+}
+
+.footer__box {
+    padding: 35px 25px 60px 0px;    
+    text-align: center;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
