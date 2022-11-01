@@ -17,7 +17,7 @@ button {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fafafa;
+    background-color: #fafafa;    
 }
 
 header {
@@ -52,7 +52,7 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #4A7C59;
+    color: #4392F1;
 }
 
 .welcome__container {  
@@ -81,7 +81,7 @@ h1 {
 }
 
 span {
-    color: #4A7C59;
+    color: #4392F1;
 }
 
 .cadastro__btn {
@@ -102,11 +102,11 @@ span {
 }
 
 .login__btn {
-    background-color: #4A7C59;
+    background-color: #4392F1;
     color: #fafafa;
     width: 130px;
     height: 40px;
-    border: 3px solid #4A7C59;    
+    border: none;       
     border-radius: 4px;
     font-weight: 700;
     cursor: pointer;
@@ -137,7 +137,7 @@ span {
 .subtitles {
     color: #19181C;
     text-decoration: underline;    
-    text-decoration-color: #4A7C59;  
+    text-decoration-color: #4392F1;  
     text-decoration-thickness: 5px;  
     text-underline-offset: 13px;         
     font-size: 28px;
@@ -162,7 +162,11 @@ span {
     padding: 25px;
     margin: 10px;   
     width: 380px;
-    height: 380px;
+    height: 420px;
+}
+
+small {
+    font-size: 16px;    
 }
 
 h4 {
@@ -177,37 +181,8 @@ img {
     border-radius: 6px 6px 0 0;
 }
 
-.states__container { 
-    background-image: url(../images/close-up-microscope-oculars.jpg);  
-    background-size: cover; 
-    padding: 30px 10%; 
-    height: 230px;
-}
-
-.states {
-    padding-top: 50px;
-    padding-left: 25px;
-    text-align: center;
-    display: flex;    
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.blocks {
-    align-items: center;
-    margin: 10px;
-    max-width: 380px;
-}
-
-.states__text {
-    color:  #fffffff3;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.rules__container {        
+.rules__container {  
+    background-color: #E3EBFF;      
     padding: 30px 10%; 
 }
 
@@ -221,27 +196,28 @@ img {
     flex-wrap: wrap;
 }
 
-.rules__text {  
-    background-color: #eeeeeede;   
-    border-radius: 12px;
-    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-    padding: 25px;
-    margin: 10px;
-    width: 380px;
-    height: 310px;    
+.rules__text {
+    max-width: 380px;
+    font-size: 16px;
+    padding-bottom: 35px;
 }
 
-.icon {
-    width: 60px;
-    height: 60px;
+.rules__img {
+    width: 380px;
+    height: 280px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 15px;
 }
 
 h5 {
-    font-size: 20px; 
+    color: #19181C;
+    font-size: 18px; 
+    text-align: center;
+    padding: 15px;
 }   
 
 .labs__container {  
-    background-image: linear-gradient(to bottom,  #fafafa 60%,  #4A7C59 40%);  
+    background-image: linear-gradient(to bottom,  #fafafa 60%,  #E3EBFF 40%);  
     padding: 30px 10%;    
 }
 
@@ -289,17 +265,68 @@ h5 {
     font-weight: bold;
 }
 
+.people__cards {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding-top: 15px;
+    width: 370px;
+    height: 350px;
+    margin: 10px;
+}
+
 .footer__container {    
     background-color: #121113;
     padding: 30px 10%;
 }
 
-.footer__box {
-    padding: 35px 25px 60px 0px;    
+.footer__text {
+    padding: 35px 35px 20px 35px;
+    color: #e9e9e9;
     text-align: center;
-    display: flex;    
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+@media (max-width: 400px) {
+    body {
+        padding: 10px;        
+    }
+
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;       
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .welcome__text {
+        font-size: 16px;
+    }
+
+    .cadastro__btn {
+        margin: 5px;
+    }    
+
+    .about__text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        width: 220px;
+    }
+
+    .cards {
+        width: 380px;
+        margin: 15px;
+    }
+
+    .rules__img {
+        width: 280px;
+    }
+
+    .rules__text {
+        width: 280px;
+    }
 }
