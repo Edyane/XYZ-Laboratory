@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
- 👉 <a href="https://edyane.github.io/XYZ-Laboratory/;">Chek it out now!</a> 👈
+ 👉 <a href="https://edyane.github.io/XYZ-Laboratory">Chek it out now!</a> 👈
  <br>
  <br>
   <div align="center">
