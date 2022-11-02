@@ -166,7 +166,7 @@ span {
 }
 
 small {
-    font-size: 16px;    
+    font-size: 15px;    
 }
 
 h4 {
@@ -211,19 +211,20 @@ img {
 }
 
 .rules__description {
+    font-size: 14px;
     padding: 10px 25px;
 }
 
 h5 {
     color: #19181C;
     font-size: 18px; 
-    text-align: center;
-    padding: 15px;
+    font-weight: 600;
+    padding: 25px;
 }   
 
 .labs__container {  
-    background-image: linear-gradient(to bottom,  #fafafa 60%,  #E3EBFF 40%);  
-    padding: 30px 10%;    
+    background-image: linear-gradient(to bottom,  #fafafa 50%,  #E3EBFF 50%);  
+    padding: 30px 10%;        
 }
 
 .labs__box {  
@@ -233,7 +234,7 @@ h5 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
 
 .labs__text {
@@ -244,7 +245,7 @@ h5 {
     height: 240px;
     margin: 15px;
     padding-top: 35px;
-    border-radius: 12px;
+    border-radius: 12px;        
 }
 
 .icons {    
@@ -278,7 +279,9 @@ h5 {
 }
 
 .mail {
+    color: #4392F1;
     padding-top: 5px;
+    font-size: 15px;
 }
 
 .people__cards {
@@ -288,6 +291,12 @@ h5 {
     width: 370px;
     height: 350px;
     margin: 10px;
+}
+
+.people__img {
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    width: 320px;
 }
 
 .footer__container {    
@@ -302,9 +311,9 @@ h5 {
     font-size: 13px;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     body {
-        padding: 10px;        
+        padding: 5px;        
     }
 
     .nav-links{
@@ -312,30 +321,39 @@ h5 {
         flex-wrap: wrap;       
     }
 
-    h1 {
-        font-size: 36px;
-    }
-
     .welcome__text {
         font-size: 16px;
     }
 
-    .cadastro__btn {
-        margin: 5px;
-    }    
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .subtitle__text{
+        text-align: center;
+    }
 
     .about__text {
         font-size: 14px;
         text-align: center;
     }
 
-    img {
-        width: 220px;
+    .subtitles {
+        text-align: center;
     }
 
     .cards {
-        width: 380px;
+        width: 280px;
         margin: 15px;
+    }
+
+    img {
+        width: 230px;
+    }
+
+    .rules__box{
+        padding: 30px 10px 10px 10px;
     }
 
     .rules__img {
@@ -345,4 +363,93 @@ h5 {
     .rules__text {
         width: 280px;
     }
+
+    .labs__box {
+        padding: 25px;
+    }
+
+    .labs__text {        
+        padding: 50px;
+        width: 300px;
+    }
+
+    .equipe__box {
+        padding: 25px;
+    }
+
+    .people__cards {
+        width: 300px;
+    }
+
+    .people__img {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:998px){
+    body {
+        padding: 10px;        
+    }
+
+    .nav-links{
+        flex-direction: row;
+        justify-content: space-between;              
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .subtitle__text {
+        text-align: center;
+    }
+
+    .cadastro__btn {
+        margin: 22px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .subtitles {
+        text-align: center;
+    }
+
+    .welcome__text {
+        font-size: 16px;
+    }
+
+    .about__text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        width: 320px;
+    }
+
+    .cards {
+        width: 380px;
+        margin: 15px;
+    }
+
+    .rules__img {
+        width: 380px;
+    }
+
+    .rules__text {
+        width: 380px;
+    }   
+    
+    .labs__text {          
+        width: 380px;
+        height: 240px;               
+    }
+
+    .footer__text {
+        text-align: center;
+    } 
+    
 }
