@@ -114,7 +114,7 @@ span {
 }
 
 .login__btn:hover {
-    border: 2px solid #4A7C59;
+    background-color: #6eafff;
 }
 
 .about__container {    
@@ -171,7 +171,8 @@ small {
 
 h4 {
     color: #19181C;
-    padding-top: 10px;       
+    padding-top: 10px; 
+    padding-bottom: 15px;      
 }
 
 img {
@@ -209,6 +210,10 @@ img {
     margin-bottom: 15px;
 }
 
+.rules__description {
+    padding: 10px 25px;
+}
+
 h5 {
     color: #19181C;
     font-size: 18px; 
@@ -238,12 +243,19 @@ h5 {
     width: 230px;
     height: 240px;
     margin: 15px;
+    padding-top: 35px;
     border-radius: 12px;
+}
+
+.icons {    
+    width: 80px;
+    height: 80px;
 }
 
 .labs__description {
     padding: 25px;
-    color: #fafafa;
+    color: #19181C;
+    font-weight: 500;
 }
 
 .equipe__container {
@@ -261,8 +273,12 @@ h5 {
 }
 
 .equipe__names {
-    padding-top: 35px 0px 8px;
+    padding-top: 15px;
     font-weight: bold;
+}
+
+.mail {
+    padding-top: 5px;
 }
 
 .people__cards {
